@@ -67,8 +67,9 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
-  border-bottom: solid 1px #275da1;
+  background-color: #B22222;
+  /*background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;*/
+  /*border-bottom: solid 1px #275da1;*/
 }
 
 header h1 {
@@ -263,7 +264,7 @@ form {
  
 #main-content h3:before {
   content: "///";
-  color: #9ddcff;
+  color: #B22222;
   padding-right: 0.3em;
   margin-left: -2em;
 }
@@ -272,7 +273,7 @@ form {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 15px;
   font-weight: bold;
-  color: #474747;
+  color: #B22222;
 } 
 
 h4:before {

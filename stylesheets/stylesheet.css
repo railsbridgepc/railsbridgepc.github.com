@@ -50,7 +50,7 @@ table {
 body {
   font-size: 15px;
   line-height: 1.5; 
-  background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
+  background: #fff 0 0 repeat;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-weight: 400;
   color: #666;
@@ -64,17 +64,18 @@ a:hover {
 }
 
 header {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin-top: 75px;
+  padding-bottom: -20px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   background-color: #B22222;
+  height: 90px;
   /*background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;*/
   /*border-bottom: solid 1px #275da1;*/
 }
 
 header h1 {
   letter-spacing: -1px;
-  font-size: 72px;
+  font-size: 32px;
   color: #fff;
   line-height: 1;
   margin-bottom: 0.2em;
@@ -93,7 +94,25 @@ header h2 {
 .inner {
   position: relative;
   width: 940px;
+  height: 150px;
+  vertical-align: middle;
   margin: 0 auto;
+  padding-top: 50px;
+}
+.logo{
+  position: absolute;
+  margin-left: 350px;
+  margin-top: -105px;
+}
+
+#inner-banner {
+  position: relative;
+  width: 940px;
+  height: 200px;
+  z-index: 10;
+  vertical-align: middle;
+  margin: 0 auto;
+  color: #eeeeee;
 }
 
 #content-wrapper {
@@ -343,7 +362,7 @@ dl dd {
 
 footer {
   background: transparent url('../images/hr.png') 0 0 no-repeat;
-  margin-top: 40px;
+  margin-top: 0px;
   padding-top: 20px;
   padding-bottom: 30px;
   font-size: 13px;
@@ -351,7 +370,8 @@ footer {
 }
 
 footer a {
-  color: #666;
+  color: #B22222;
+  font-size: 18px;
 }
 footer a:hover {
   color: #444;

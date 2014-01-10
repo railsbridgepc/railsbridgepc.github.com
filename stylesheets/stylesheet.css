@@ -158,6 +158,7 @@ aside#sidebar {
 
 aside#sidebar a{
   color: #B22222;
+  line-height: 25px;
 }
 
 aside#sidebar p.repo-owner,
